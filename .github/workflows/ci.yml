@@ -27,6 +27,8 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: ''
 
       - name: Install SDK components (compileSdk 36 / buildTools 36.0.0 / NDK 21.4)
         run: |
